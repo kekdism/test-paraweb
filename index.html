@@ -17,45 +17,52 @@
       </div>
     </header>
     <section class="carousel">
-      <div class="container">
+      <div class="carousel__wrapper container">
         <article class="carousel-item">
           <h2 class="carousel-item__title">
-            Как бизнесу сохранять IT-кадры на фоне кризиса
+            Как бизнесу сохранять IT&#8209;кадры на&nbsp;фоне кризиса
           </h2>
           <p class="carousel-item__description">
-            Инструменты, которые могут использовать компании для удержания
+            Инструменты, которые могут использовать компании для&nbsp;удержания
             сотрудников
           </p>
           <a class="carousel-item__link">Подробнее</a>
-          <img class="carousel-item__image" />
         </article>
         <ul class="carousel__selector">
-          <li class="carousel__item carousel__item_active"></li>
-          <li class="carousel__item"></li>
-          <li class="carousel__item"></li>
+          <li class="carousel__select carousel__select_active"></li>
+          <li class="carousel__select"></li>
+          <li class="carousel__select"></li>
         </ul>
       </div>
     </section>
     <section class="filters">
-      <div class="container">
-        <div class="filters__author">
-          <input />
+      <div class="filters__wrapper container">
+        <div class="filters__filter filters__filter_type_author">
+          <input class="filters__input" placeholder="Выбор автора" />
         </div>
-        <div class="filters__date">
-          <div class="filters__from">
-            <p class="filters__text">От</p>
-            <input class="filters__input" />
-          </div>
-          <span class="filters__text">-</span>
-          <div class="filters__from">
-            <p class="filters__text">До</p>
-            <input class="filters__input" />
-          </div>
+        <div class="filters__filter">
+          <input class="filters__input" placeholder="От" />
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5.16667 10H14.8333"
+              stroke="#888888"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <input class="filters__input" placeholder="До" />
         </div>
       </div>
     </section>
     <section class="cards">
-      <div class="container">
+      <div class="cards__wrapper container">
         <article class="card">
           <p class="card__date">12 июня 2022</p>
           <h3 class="card__title">Заголовок статьи</h3>
@@ -119,8 +126,8 @@
       </div>
     </section>
     <footer class="footer">
-      <div class="container">
-        <img src="" alt="" class="footer__logo" />
+      <div class="footer__wrapper container">
+        <img src="./public/logo-footer.svg" alt="" class="footer__logo" />
         <ul class="footer__links">
           <li>
             <a class="footer__link">Готовые решения</a>
@@ -138,16 +145,16 @@
         <p class="footer__copyright">© ООО «Лого», 2008—2022</p>
         <ul class="footer__socials">
           <li>
-            <a class="footer__social"><img /></a>
+            <a class="footer__social"><img src="./public/telegram.svg" /></a>
           </li>
           <li>
-            <a class="footer__social"><img /></a>
+            <a class="footer__social"><img src="./public/vk.svg" /></a>
           </li>
           <li>
-            <a class="footer__social"><img /></a>
+            <a class="footer__social"><img src="./public/twitter.svg" /></a>
           </li>
           <li>
-            <a class="footer__social"><img /></a>
+            <a class="footer__social"><img src="./public/youtube.svg" /></a>
           </li>
         </ul>
       </div>

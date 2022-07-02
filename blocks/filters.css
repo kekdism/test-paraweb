@@ -1,0 +1,50 @@
+.filters__wrapper {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.filters__filter {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #ffffff;
+  border-radius: 10px;
+  max-width: 335px;
+  width: 100%;
+}
+
+.filters__filter_type_author::before {
+  content: "";
+  background-image: url("../public/user.svg");
+  width: 20px;
+  height: 20px;
+}
+
+.filters__filter_type_author::after {
+  content: "";
+  background-image: url("../public/chevron-down.svg");
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.filters__input {
+  border: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #888888;
+  size: 4;
+  width: 100%;
+  flex: 1;
+}
+
+.filters__input:focus {
+  outline: 0;
+}

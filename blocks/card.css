@@ -1,0 +1,42 @@
+.card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 24px;
+  font-family: "Montserrat";
+}
+
+.card__date {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #10b2d0;
+  margin-bottom: 8px;
+}
+
+.card__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.65);
+  margin-bottom: 16px;
+}
+
+.card__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #888888;
+  margin-bottom: 24px;
+}
+
+.card__author {
+  width: fit-content;
+  background-color: rgba(0, 80, 239, 0.06);
+  border-radius: 10px;
+  padding: 8px 20px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #0050ef;
+}

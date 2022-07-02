@@ -1,3 +1,36 @@
 .carousel {
+  display: flex;
   padding: 100px 0 64px;
+  background-image: url("../public/background.png"),
+    linear-gradient(100.68deg, #5991ff 13.6%, #0050ef 94.69%);
+  background-position: bottom right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 546px;
+}
+
+.carousel__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.carousel__selector {
+  width: min-content;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  z-index: 5;
+}
+
+.carousel__select {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+  height: 3px;
+  width: 29px;
+  cursor: pointer;
+}
+
+.carousel__select_active {
+  background: white;
 }

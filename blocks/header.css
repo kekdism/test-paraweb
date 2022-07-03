@@ -41,10 +41,10 @@
   }
 
   .header__contacts-item_type_phone {
-    background-image: url("../public/phone.svg");
+    background-image: url("./public/phone.svg");
   }
 
   .header__contacts-item_type_mail {
-    background-image: url("../public/mail.svg");
+    background-image: url("./public/mail.svg");
   }
 }

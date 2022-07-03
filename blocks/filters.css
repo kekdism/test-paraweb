@@ -1,9 +1,23 @@
+.filters {
+  position: sticky;
+  top: 87px;
+  background-color: #f6f9ff;
+  z-index: 2;
+}
+
 .filters__wrapper {
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: row;
   gap: 20px;
   align-items: center;
+}
+
+@media screen and (max-width: 710px) {
+  .filters__wrapper {
+    flex-direction: column;
+  }
 }
 
 .filters__filter {
@@ -43,6 +57,13 @@
   size: 4;
   width: 100%;
   flex: 1;
+}
+
+@media screen and (max-width: 710px) {
+  .filters__input {
+    font-size: 14px;
+    line-height: 17px;
+  }
 }
 
 .filters__input:focus {

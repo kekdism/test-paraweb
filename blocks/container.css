@@ -3,3 +3,9 @@
   max-width: 1164px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1196px) {
+  .container {
+    padding: 0 16px;
+  }
+}

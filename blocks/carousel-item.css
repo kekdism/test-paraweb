@@ -33,3 +33,27 @@
   color: #0050ef;
   cursor: pointer;
 }
+
+@media screen and (max-width: 710px) {
+  .carousel-item {
+    max-width: 318px;
+  }
+
+  .carousel-item__title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+
+  .carousel-item__description {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 24px;
+  }
+
+  .carousel-item__link {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 14px 24px;
+  }
+}

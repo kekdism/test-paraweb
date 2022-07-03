@@ -33,14 +33,14 @@
 
 .filters__filter_type_author::before {
   content: "";
-  background-image: url("../public/user.svg");
+  background-image: url("./user.svg");
   width: 20px;
   height: 20px;
 }
 
 .filters__filter_type_author::after {
   content: "";
-  background-image: url("../public/chevron-down.svg");
+  background-image: url("./chevron-down.svg");
   width: 20px;
   height: 20px;
   cursor: pointer;

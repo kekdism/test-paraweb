@@ -1,7 +1,7 @@
 .carousel {
   display: flex;
   padding: 100px 0 64px;
-  background-image: url("../public/background.png"),
+  background-image: url("./background.png"),
     linear-gradient(100.68deg, #5991ff 13.6%, #0050ef 94.69%);
   background-position: bottom right;
   background-size: contain;
